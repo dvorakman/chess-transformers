@@ -1,0 +1,16 @@
+VOCAB_SIZES:
+  moves: 4672
+  turn: 2
+  white_kingside_castling_rights: 2
+  white_queenside_castling_rights: 2
+  black_kingside_castling_rights: 2
+  black_queenside_castling_rights: 2
+  board_position: 12
+D_MODEL: 768
+N_HEADS: 12
+D_QUERIES: 64
+D_VALUES: 64
+D_INNER: 3072
+N_LAYERS: 12
+DROPOUT: 0.2
+LABEL_SMOOTHING: 0.1
